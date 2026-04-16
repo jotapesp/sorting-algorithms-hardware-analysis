@@ -1,7 +1,7 @@
 ### Especificações de Hardware e Software
 
 #### **1. Processamento (CPU)**
-* **Modelo:** Intel Core i5-10400F
+* **Modelo:** Intel Core i5-10400F (2.90Ghz)
 * **Arquitetura:** 10ª Geração (Comet Lake), 6 núcleos / 12 threads
 * **Cache L1d:** 192 KiB (6 instâncias)
 * **Cache L2:** 1,5 MiB (6 instâncias)

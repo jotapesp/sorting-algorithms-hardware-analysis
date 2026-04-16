@@ -1,0 +1,144 @@
+### ALVO_BARRA: heapsort_java ###
+
+ Performance counter stats for './heapsort_java' (100 runs):
+
+        35.920.335      task-clock:u                     #    0,925 CPUs utilized               ( +-  0,39% )
+             4.632      page-faults                                                             ( +-  0,01% )
+       135.331.069      cycles                                                                  ( +-  0,56% )  (50,77%)
+       142.058.036      instructions                     #    1,05  insn per cycle              ( +-  0,40% )  (64,85%)
+         1.145.064      cache-misses                                                            ( +-  0,47% )  (69,32%)
+        40.431.059      L1-dcache-loads                                                         ( +-  0,31% )  (71,70%)
+         3.301.062      L1-dcache-load-misses            #    8,16% of all L1-dcache accesses   ( +-  0,67% )  (69,77%)
+           637.543      LLC-loads                                                               ( +-  0,63% )  (67,06%)
+           156.406      LLC-load-misses                  #   24,53% of all LL-cache accesses    ( +-  2,16% )  (42,01%)
+        27.062.740      branches                                                                ( +-  0,44% )  (41,94%)
+         1.007.858      branch-misses                    #    3,72% of all branches             ( +-  0,65% )  (41,74%)
+
+          0,038843 +- 0,000172 seconds time elapsed  ( +-  0,44% )
+
+### ALVO_BARRA: heapsort_o0 ###
+
+ Performance counter stats for './heapsort_o0' (100 runs):
+
+           910.530      task-clock:u                     #    0,767 CPUs utilized               ( +-  0,29% )
+               129      page-faults                                                             ( +-  0,07% )
+         3.514.394      cycles                                                                  ( +-  0,88% )  (44,94%)
+         5.954.532      instructions                     #    1,69  insn per cycle              ( +-  0,09% )
+             6.998      cache-misses                                                            ( +-  6,71% )
+         1.703.448      L1-dcache-loads                                                         ( +-  0,08% )
+            41.990      L1-dcache-load-misses            #    2,47% of all L1-dcache accesses   ( +-  0,17% )
+            11.346      LLC-loads                                                               ( +-  0,36% )
+     <not counted>      LLC-load-misses                                                         (0,00%)
+     <not counted>      branches                                                                (0,00%)
+     <not counted>      branch-misses                                                           (0,00%)
+
+         0,0011871 +- 0,0000128 seconds time elapsed  ( +-  1,08% )
+
+### ALVO_BARRA: heapsort_o1 ###
+
+ Performance counter stats for './heapsort_o1' (100 runs):
+
+           641.754      task-clock:u                     #    0,731 CPUs utilized               ( +-  0,27% )
+               129      page-faults                                                             ( +-  0,07% )
+         2.493.651      cycles                                                                  ( +-  0,45% )
+         3.651.769      instructions                     #    1,46  insn per cycle              ( +-  0,10% )
+             5.516      cache-misses                                                            ( +-  5,85% )
+           896.936      L1-dcache-loads                                                         ( +-  0,10% )
+            41.521      L1-dcache-load-misses            #    4,63% of all L1-dcache accesses   ( +-  0,12% )
+            11.136      LLC-loads                                                               ( +-  0,31% )
+     <not counted>      LLC-load-misses                                                         (0,00%)
+     <not counted>      branches                                                                (0,00%)
+     <not counted>      branch-misses                                                           (0,00%)
+
+         0,0008783 +- 0,0000206 seconds time elapsed  ( +-  2,34% )
+
+### ALVO_BARRA: heapsort_o2 ###
+
+ Performance counter stats for './heapsort_o2' (100 runs):
+
+           628.098      task-clock:u                     #    0,715 CPUs utilized               ( +-  0,31% )
+               129      page-faults                                                             ( +-  0,07% )
+         2.427.563      cycles                                                                  ( +-  0,68% )
+         3.415.877      instructions                     #    1,41  insn per cycle              ( +-  0,12% )
+             5.671      cache-misses                                                            ( +-  6,37% )
+           842.911      L1-dcache-loads                                                         ( +-  0,12% )
+            41.555      L1-dcache-load-misses            #    4,93% of all L1-dcache accesses   ( +-  0,13% )
+            11.337      LLC-loads                                                               ( +-  0,33% )
+     <not counted>      LLC-load-misses                                                         (0,00%)
+     <not counted>      branches                                                                (0,00%)
+     <not counted>      branch-misses                                                           (0,00%)
+
+         0,0008784 +- 0,0000185 seconds time elapsed  ( +-  2,10% )
+
+### ALVO_BARRA: heapsort_o3 ###
+
+ Performance counter stats for './heapsort_o3' (100 runs):
+
+           683.436      task-clock:u                     #    0,706 CPUs utilized               ( +-  1,70% )
+               129      page-faults                                                             ( +-  0,07% )
+         2.646.626      cycles                                                                  ( +-  1,81% )  (46,20%)
+         3.375.673      instructions                     #    1,28  insn per cycle              ( +-  0,13% )
+            12.343      cache-misses                                                            ( +- 10,45% )
+           822.543      L1-dcache-loads                                                         ( +-  0,13% )
+            42.022      L1-dcache-load-misses            #    5,11% of all L1-dcache accesses   ( +-  0,39% )
+            11.596      LLC-loads                                                               ( +-  0,71% )
+     <not counted>      LLC-load-misses                                                         (0,00%)
+     <not counted>      branches                                                                (0,00%)
+     <not counted>      branch-misses                                                           (0,00%)
+
+         0,0009676 +- 0,0000286 seconds time elapsed  ( +-  2,95% )
+
+### ALVO_BARRA: heapsort_of ###
+
+ Performance counter stats for './heapsort_of' (100 runs):
+
+           628.641      task-clock:u                     #    0,735 CPUs utilized               ( +-  0,28% )
+               129      page-faults                                                             ( +-  0,07% )
+         2.417.382      cycles                                                                  ( +-  0,93% )
+         3.368.171      instructions                     #    1,39  insn per cycle              ( +-  0,12% )
+             5.383      cache-misses                                                            ( +-  5,81% )
+           820.760      L1-dcache-loads                                                         ( +-  0,12% )
+            41.543      L1-dcache-load-misses            #    5,06% of all L1-dcache accesses   ( +-  0,13% )
+            11.328      LLC-loads                                                               ( +-  0,34% )
+     <not counted>      LLC-load-misses                                                         (0,00%)
+     <not counted>      branches                                                                (0,00%)
+     <not counted>      branch-misses                                                           (0,00%)
+
+         0,0008558 +- 0,0000220 seconds time elapsed  ( +-  2,57% )
+
+### ALVO_BARRA: heapsort_os ###
+
+ Performance counter stats for './heapsort_os' (100 runs):
+
+           652.940      task-clock:u                     #    0,734 CPUs utilized               ( +-  0,34% )
+               129      page-faults                                                             ( +-  0,07% )
+         2.543.573      cycles                                                                  ( +-  0,42% )
+         3.558.126      instructions                     #    1,40  insn per cycle              ( +-  0,12% )
+             5.714      cache-misses                                                            ( +-  6,27% )
+           859.884      L1-dcache-loads                                                         ( +-  0,12% )
+            41.517      L1-dcache-load-misses            #    4,83% of all L1-dcache accesses   ( +-  0,15% )
+            11.306      LLC-loads                                                               ( +-  0,36% )
+     <not counted>      LLC-load-misses                                                         (0,00%)
+     <not counted>      branches                                                                (0,00%)
+     <not counted>      branch-misses                                                           (0,00%)
+
+         0,0008900 +- 0,0000199 seconds time elapsed  ( +-  2,24% )
+
+### ALVO_BARRA: heapsort_python ###
+
+ Performance counter stats for './heapsort_python' (100 runs):
+
+        28.091.817      task-clock:u                     #    0,975 CPUs utilized               ( +-  0,05% )
+             2.694      page-faults                                                             ( +-  0,00% )
+       111.539.248      cycles                                                                  ( +-  0,05% )  (54,66%)
+       203.399.017      instructions                     #    1,82  insn per cycle              ( +-  0,19% )  (68,05%)
+           514.103      cache-misses                                                            ( +-  0,68% )  (68,06%)
+        55.694.855      L1-dcache-loads                                                         ( +-  0,03% )  (68,05%)
+         2.275.465      L1-dcache-load-misses            #    4,09% of all L1-dcache accesses   ( +-  0,26% )  (68,04%)
+           498.441      LLC-loads                                                               ( +-  0,60% )  (68,03%)
+             6.913      LLC-load-misses                  #    1,39% of all LL-cache accesses    ( +-  0,93% )  (42,59%)
+        47.338.425      branches                                                                ( +-  0,14% )  (42,62%)
+           604.603      branch-misses                    #    1,28% of all branches             ( +-  0,24% )  (42,61%)
+
+         0,0288056 +- 0,0000133 seconds time elapsed  ( +-  0,05% )
+

@@ -1,0 +1,144 @@
+### ALVO_BARRA: raddixsort_java ###
+
+ Performance counter stats for './raddixsort_java' (100 runs):
+
+        39.594.882      task-clock:u                     #    0,927 CPUs utilized               ( +-  0,38% )
+             4.720      page-faults                                                             ( +-  0,01% )
+       147.611.684      cycles                                                                  ( +-  0,47% )  (58,60%)
+       166.661.124      instructions                     #    1,13  insn per cycle              ( +-  0,58% )  (69,82%)
+         1.159.388      cache-misses                                                            ( +-  0,82% )  (70,47%)
+        50.320.033      L1-dcache-loads                                                         ( +-  0,67% )  (71,19%)
+         3.339.747      L1-dcache-load-misses            #    6,64% of all L1-dcache accesses   ( +-  0,66% )  (71,61%)
+           651.828      LLC-loads                                                               ( +-  0,61% )  (69,53%)
+           147.979      LLC-load-misses                  #   22,70% of all LL-cache accesses    ( +-  2,59% )  (41,98%)
+        31.337.899      branches                                                                ( +-  0,93% )  (39,63%)
+         1.048.691      branch-misses                    #    3,35% of all branches             ( +-  0,73% )  (40,96%)
+
+          0,042732 +- 0,000173 seconds time elapsed  ( +-  0,40% )
+
+### ALVO_BARRA: raddixsort_o0 ###
+
+ Performance counter stats for './raddixsort_o0' (100 runs):
+
+         1.307.855      task-clock:u                     #    0,901 CPUs utilized               ( +-  0,17% )
+               136      page-faults                                                             ( +-  0,06% )
+         5.066.437      cycles                                                                  ( +-  0,47% )  (48,36%)
+         9.809.848      instructions                     #    1,94  insn per cycle              ( +-  0,16% )
+             6.144      cache-misses                                                            ( +-  5,22% )
+         2.619.200      L1-dcache-loads                                                         ( +-  0,04% )
+            48.180      L1-dcache-load-misses            #    1,84% of all L1-dcache accesses   ( +-  0,12% )
+            11.469      LLC-loads                                                               ( +-  0,33% )
+     <not counted>      LLC-load-misses                                                         (0,00%)
+     <not counted>      branches                                                                (0,00%)
+     <not counted>      branch-misses                                                           (0,00%)
+
+         0,0014515 +- 0,0000460 seconds time elapsed  ( +-  3,17% )
+
+### ALVO_BARRA: raddixsort_o1 ###
+
+ Performance counter stats for './raddixsort_o1' (100 runs):
+
+           773.341      task-clock:u                     #    0,761 CPUs utilized               ( +-  0,28% )
+               136      page-faults                                                             ( +-  0,06% )
+         2.988.803      cycles                                                                  ( +-  0,82% )  (77,89%)
+         4.320.326      instructions                     #    1,45  insn per cycle              ( +-  0,09% )
+             6.046      cache-misses                                                            ( +-  6,02% )
+           923.499      L1-dcache-loads                                                         ( +-  0,11% )
+            47.897      L1-dcache-load-misses            #    5,19% of all L1-dcache accesses   ( +-  0,12% )
+            11.117      LLC-loads                                                               ( +-  0,35% )
+     <not counted>      LLC-load-misses                                                         (0,00%)
+     <not counted>      branches                                                                (0,00%)
+     <not counted>      branch-misses                                                           (0,00%)
+
+         0,0010158 +- 0,0000212 seconds time elapsed  ( +-  2,09% )
+
+### ALVO_BARRA: raddixsort_o2 ###
+
+ Performance counter stats for './raddixsort_o2' (100 runs):
+
+           746.225      task-clock:u                     #    0,796 CPUs utilized               ( +-  0,28% )
+               136      page-faults                                                             ( +-  0,07% )
+         2.879.185      cycles                                                                  ( +-  0,70% )  (26,11%)
+         4.175.171      instructions                     #    1,45  insn per cycle              ( +-  0,09% )
+             6.640      cache-misses                                                            ( +-  6,45% )
+           896.623      L1-dcache-loads                                                         ( +-  0,10% )
+            47.828      L1-dcache-load-misses            #    5,33% of all L1-dcache accesses   ( +-  0,10% )
+            11.268      LLC-loads                                                               ( +-  0,32% )
+     <not counted>      LLC-load-misses                                                         (0,00%)
+     <not counted>      branches                                                                (0,00%)
+     <not counted>      branch-misses                                                           (0,00%)
+
+         0,0009376 +- 0,0000298 seconds time elapsed  ( +-  3,18% )
+
+### ALVO_BARRA: raddixsort_o3 ###
+
+ Performance counter stats for './raddixsort_o3' (100 runs):
+
+           744.046      task-clock:u                     #    0,736 CPUs utilized               ( +-  0,28% )
+               136      page-faults                                                             ( +-  0,06% )
+         2.853.772      cycles                                                                  ( +-  0,88% )  (54,75%)
+         4.162.460      instructions                     #    1,46  insn per cycle              ( +-  0,09% )
+             6.051      cache-misses                                                            ( +-  6,33% )
+           891.745      L1-dcache-loads                                                         ( +-  0,11% )
+            47.916      L1-dcache-load-misses            #    5,37% of all L1-dcache accesses   ( +-  0,11% )
+            11.228      LLC-loads                                                               ( +-  0,34% )
+     <not counted>      LLC-load-misses                                                         (0,00%)
+     <not counted>      branches                                                                (0,00%)
+     <not counted>      branch-misses                                                           (0,00%)
+
+         0,0010116 +- 0,0000151 seconds time elapsed  ( +-  1,50% )
+
+### ALVO_BARRA: raddixsort_of ###
+
+ Performance counter stats for './raddixsort_of' (100 runs):
+
+           741.409      task-clock:u                     #    0,754 CPUs utilized               ( +-  0,28% )
+               136      page-faults                                                             ( +-  0,07% )
+         2.868.275      cycles                                                                  ( +-  0,74% )  (59,51%)
+         4.160.785      instructions                     #    1,45  insn per cycle              ( +-  0,09% )
+             5.163      cache-misses                                                            ( +-  5,64% )
+           891.338      L1-dcache-loads                                                         ( +-  0,11% )
+            47.802      L1-dcache-load-misses            #    5,36% of all L1-dcache accesses   ( +-  0,13% )
+            11.302      LLC-loads                                                               ( +-  0,35% )
+     <not counted>      LLC-load-misses                                                         (0,00%)
+     <not counted>      branches                                                                (0,00%)
+     <not counted>      branch-misses                                                           (0,00%)
+
+         0,0009829 +- 0,0000205 seconds time elapsed  ( +-  2,08% )
+
+### ALVO_BARRA: raddixsort_os ###
+
+ Performance counter stats for './raddixsort_os' (100 runs):
+
+           808.953      task-clock:u                     #    0,746 CPUs utilized               ( +-  0,24% )
+               136      page-faults                                                             ( +-  0,07% )
+         3.105.315      cycles                                                                  ( +-  0,84% )
+         4.028.875      instructions                     #    1,30  insn per cycle              ( +-  0,09% )
+             5.829      cache-misses                                                            ( +-  5,72% )
+           923.697      L1-dcache-loads                                                         ( +-  0,10% )
+            47.882      L1-dcache-load-misses            #    5,18% of all L1-dcache accesses   ( +-  0,11% )
+            11.220      LLC-loads                                                               ( +-  0,35% )
+     <not counted>      LLC-load-misses                                                         (0,00%)
+     <not counted>      branches                                                                (0,00%)
+     <not counted>      branch-misses                                                           (0,00%)
+
+         0,0010841 +- 0,0000118 seconds time elapsed  ( +-  1,08% )
+
+### ALVO_BARRA: raddixsort_python ###
+
+ Performance counter stats for './raddixsort_python' (100 runs):
+
+        29.978.971      task-clock:u                     #    0,977 CPUs utilized               ( +-  0,04% )
+             2.687      page-faults                                                             ( +-  0,00% )
+       119.052.704      cycles                                                                  ( +-  0,04% )  (52,63%)
+       242.937.688      instructions                     #    2,04  insn per cycle              ( +-  0,22% )  (65,99%)
+           477.731      cache-misses                                                            ( +-  0,61% )  (69,33%)
+        67.189.393      L1-dcache-loads                                                         ( +-  0,03% )  (69,96%)
+         2.388.275      L1-dcache-load-misses            #    3,55% of all L1-dcache accesses   ( +-  0,05% )  (69,96%)
+           630.611      LLC-loads                                                               ( +-  0,12% )  (69,95%)
+            10.562      LLC-load-misses                  #    1,67% of all LL-cache accesses    ( +-  1,53% )  (40,69%)
+        53.446.974      branches                                                                ( +-  0,05% )  (40,06%)
+           518.731      branch-misses                    #    0,97% of all branches             ( +-  0,07% )  (40,06%)
+
+         0,0306724 +- 0,0000239 seconds time elapsed  ( +-  0,08% )
+

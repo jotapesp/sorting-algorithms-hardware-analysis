@@ -1,0 +1,168 @@
+### ALVO_BARRA: raddixsort_java ###
+
+ Performance counter stats for './raddixsort_java' (100 runs):
+
+        41.536.226      task-clock:u                     #    0,920 CPUs utilized               ( +-  0,73% )
+             4.719      page-faults                                                             ( +-  0,01% )
+       150.579.119      cycles                                                                  ( +-  0,75% )  (43,19%)
+       162.377.815      instructions                     #    1,08  insn per cycle              ( +-  0,88% )  (57,02%)
+         1.282.299      cache-misses                                                            ( +-  1,82% )  (60,27%)
+        49.673.836      L1-dcache-loads                                                         ( +-  0,95% )  (60,48%)
+         3.272.390      L1-dcache-load-misses            #    6,59% of all L1-dcache accesses   ( +-  0,89% )  (60,41%)
+           627.555      LLC-loads                                                               ( +-  0,85% )  (58,99%)
+           137.788      LLC-load-misses                  #   21,96% of all LL-cache accesses    ( +-  3,23% )  (40,79%)
+        31.815.247      branches                                                                ( +-  0,92% )  (43,90%)
+         1.040.533      branch-misses                    #    3,27% of all branches             ( +-  0,73% )  (42,81%)
+
+          0,045166 +- 0,000362 seconds time elapsed  ( +-  0,80% )
+
+### ALVO_BARRA: raddixsort_o0 ###
+
+ Performance counter stats for './raddixsort_o0' (100 runs):
+
+         1.368.000      task-clock:u                     #    0,832 CPUs utilized               ( +-  1,03% )
+               136      page-faults                                                             ( +-  0,07% )
+         5.294.684      cycles                                                                  ( +-  1,25% )  (33,86%)
+         9.820.791      instructions                     #    1,85  insn per cycle              ( +-  0,28% )
+             9.671      cache-misses                                                            ( +-  7,45% )
+         2.632.128      L1-dcache-loads                                                         ( +-  0,04% )
+            49.175      L1-dcache-load-misses            #    1,87% of all L1-dcache accesses   ( +-  0,50% )
+             5.223      LLC-loads                                                               ( +-  7,20% )  (66,14%)
+     <not counted>      LLC-load-misses                                                         (0,00%)
+     <not counted>      branches                                                                (0,00%)
+     <not counted>      branch-misses                                                           (0,00%)
+
+         0,0016436 +- 0,0000318 seconds time elapsed  ( +-  1,94% )
+
+Some events weren't counted. Try disabling the NMI watchdog:
+	echo 0 > /proc/sys/kernel/nmi_watchdog
+	perf stat ...
+	echo 1 > /proc/sys/kernel/nmi_watchdog
+### ALVO_BARRA: raddixsort_o1 ###
+
+ Performance counter stats for './raddixsort_o1' (100 runs):
+
+           801.170      task-clock:u                     #    0,728 CPUs utilized               ( +-  1,28% )
+               136      page-faults                                                             ( +-  0,07% )
+         3.068.370      cycles                                                                  ( +-  1,37% )
+         4.359.405      instructions                     #    1,42  insn per cycle              ( +-  0,10% )
+             4.045      cache-misses                                                            ( +-  9,50% )
+           934.546      L1-dcache-loads                                                         ( +-  0,11% )
+            48.612      L1-dcache-load-misses            #    5,20% of all L1-dcache accesses   ( +-  0,50% )
+     <not counted>      LLC-loads                                                               ( +-  6,88% )  (0,00%)
+     <not counted>      LLC-load-misses                                                         (0,00%)
+     <not counted>      branches                                                                (0,00%)
+     <not counted>      branch-misses                                                           (0,00%)
+
+         0,0011010 +- 0,0000454 seconds time elapsed  ( +-  4,12% )
+
+Some events weren't counted. Try disabling the NMI watchdog:
+	echo 0 > /proc/sys/kernel/nmi_watchdog
+	perf stat ...
+	echo 1 > /proc/sys/kernel/nmi_watchdog
+### ALVO_BARRA: raddixsort_o2 ###
+
+ Performance counter stats for './raddixsort_o2' (100 runs):
+
+           868.913      task-clock:u                     #    0,697 CPUs utilized               ( +-  1,91% )
+               136      page-faults                                                             ( +-  0,07% )
+         3.344.590      cycles                                                                  ( +-  2,06% )  (10,57%)
+         4.221.107      instructions                     #    1,26  insn per cycle              ( +-  0,11% )
+            10.574      cache-misses                                                            ( +-  8,56% )
+           908.858      L1-dcache-loads                                                         ( +-  0,11% )
+            51.575      L1-dcache-load-misses            #    5,67% of all L1-dcache accesses   ( +-  1,03% )
+             7.854      LLC-loads                                                               ( +-  5,92% )  (89,43%)
+     <not counted>      LLC-load-misses                                                         (0,00%)
+     <not counted>      branches                                                                (0,00%)
+     <not counted>      branch-misses                                                           (0,00%)
+
+         0,0012472 +- 0,0000763 seconds time elapsed  ( +-  6,11% )
+
+Some events weren't counted. Try disabling the NMI watchdog:
+	echo 0 > /proc/sys/kernel/nmi_watchdog
+	perf stat ...
+	echo 1 > /proc/sys/kernel/nmi_watchdog
+### ALVO_BARRA: raddixsort_o3 ###
+
+ Performance counter stats for './raddixsort_o3' (100 runs):
+
+           911.027      task-clock:u                     #    0,679 CPUs utilized               ( +-  1,92% )
+               136      page-faults                                                             ( +-  0,07% )
+         3.531.466      cycles                                                                  ( +-  2,01% )  (84,53%)
+         4.205.413      instructions                     #    1,19  insn per cycle              ( +-  0,10% )
+            15.767      cache-misses                                                            ( +-  6,43% )
+           903.139      L1-dcache-loads                                                         ( +-  0,11% )
+            52.531      L1-dcache-load-misses            #    5,82% of all L1-dcache accesses   ( +-  1,05% )
+             8.548      LLC-loads                                                               ( +-  5,72% )  (15,47%)
+     <not counted>      LLC-load-misses                                                         (0,00%)
+     <not counted>      branches                                                                (0,00%)
+     <not counted>      branch-misses                                                           (0,00%)
+
+         0,0013420 +- 0,0000673 seconds time elapsed  ( +-  5,01% )
+
+Some events weren't counted. Try disabling the NMI watchdog:
+	echo 0 > /proc/sys/kernel/nmi_watchdog
+	perf stat ...
+	echo 1 > /proc/sys/kernel/nmi_watchdog
+### ALVO_BARRA: raddixsort_of ###
+
+ Performance counter stats for './raddixsort_of' (100 runs):
+
+           753.857      task-clock:u                     #    0,683 CPUs utilized               ( +-  0,63% )
+               136      page-faults                                                             ( +-  0,07% )
+         2.881.740      cycles                                                                  ( +-  1,17% )  (67,08%)
+         4.200.085      instructions                     #    1,46  insn per cycle              ( +-  0,09% )
+             7.494      cache-misses                                                            ( +-  8,28% )
+           902.393      L1-dcache-loads                                                         ( +-  0,10% )
+            47.960      L1-dcache-load-misses            #    5,31% of all L1-dcache accesses   ( +-  0,27% )
+             6.202      LLC-loads                                                               ( +-  7,29% )  (32,92%)
+     <not counted>      LLC-load-misses                                                         (0,00%)
+     <not counted>      branches                                                                (0,00%)
+     <not counted>      branch-misses                                                           (0,00%)
+
+         0,0011040 +- 0,0000721 seconds time elapsed  ( +-  6,53% )
+
+Some events weren't counted. Try disabling the NMI watchdog:
+	echo 0 > /proc/sys/kernel/nmi_watchdog
+	perf stat ...
+	echo 1 > /proc/sys/kernel/nmi_watchdog
+### ALVO_BARRA: raddixsort_os ###
+
+ Performance counter stats for './raddixsort_os' (100 runs):
+
+           891.027      task-clock:u                     #    0,711 CPUs utilized               ( +-  1,32% )
+               136      page-faults                                                             ( +-  0,07% )
+         3.420.001      cycles                                                                  ( +-  1,64% )  (58,31%)
+         4.074.606      instructions                     #    1,19  insn per cycle              ( +-  0,11% )
+            12.821      cache-misses                                                            ( +-  6,31% )
+           935.995      L1-dcache-loads                                                         ( +-  0,11% )
+            49.608      L1-dcache-load-misses            #    5,30% of all L1-dcache accesses   ( +-  0,68% )
+             6.348      LLC-loads                                                               ( +-  6,59% )  (41,69%)
+     <not counted>      LLC-load-misses                                                         (0,00%)
+     <not counted>      branches                                                                (0,00%)
+     <not counted>      branch-misses                                                           (0,00%)
+
+         0,0012528 +- 0,0000802 seconds time elapsed  ( +-  6,40% )
+
+Some events weren't counted. Try disabling the NMI watchdog:
+	echo 0 > /proc/sys/kernel/nmi_watchdog
+	perf stat ...
+	echo 1 > /proc/sys/kernel/nmi_watchdog
+### ALVO_BARRA: raddixsort_python ###
+
+ Performance counter stats for './raddixsort_python' (100 runs):
+
+        29.875.854      task-clock:u                     #    0,976 CPUs utilized               ( +-  0,23% )
+             2.687      page-faults                                                             ( +-  0,00% )
+       118.677.580      cycles                                                                  ( +-  0,23% )  (40,93%)
+       237.478.409      instructions                     #    2,00  insn per cycle              ( +-  0,37% )  (54,21%)
+           419.382      cache-misses                                                            ( +-  2,62% )  (57,51%)
+        65.519.974      L1-dcache-loads                                                         ( +-  0,23% )  (60,18%)
+         2.577.797      L1-dcache-load-misses            #    3,93% of all L1-dcache accesses   ( +-  0,23% )  (60,18%)
+           610.937      LLC-loads                                                               ( +-  0,73% )  (59,07%)
+             9.064      LLC-load-misses                  #    1,48% of all LL-cache accesses    ( +-  9,42% )  (42,49%)
+        53.020.218      branches                                                                ( +-  0,17% )  (39,82%)
+           520.310      branch-misses                    #    0,98% of all branches             ( +-  0,40% )  (39,82%)
+
+          0,030606 +- 0,000116 seconds time elapsed  ( +-  0,38% )
+

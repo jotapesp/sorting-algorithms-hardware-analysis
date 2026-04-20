@@ -1,0 +1,168 @@
+### ALVO_BARRA: rds_java ###
+
+ Performance counter stats for './rds_java' (100 runs):
+
+        40.506.109      task-clock:u                     #    0,920 CPUs utilized               ( +-  0,58% )
+             4.720      page-faults                                                             ( +-  0,01% )
+       148.155.320      cycles                                                                  ( +-  0,46% )  (43,46%)
+       164.299.435      instructions                     #    1,11  insn per cycle              ( +-  0,88% )  (55,62%)
+         1.110.289      cache-misses                                                            ( +-  1,15% )  (56,33%)
+        49.031.643      L1-dcache-loads                                                         ( +-  0,98% )  (56,44%)
+         3.285.332      L1-dcache-load-misses            #    6,70% of all L1-dcache accesses   ( +-  0,98% )  (59,04%)
+           642.220      LLC-loads                                                               ( +-  0,81% )  (58,86%)
+           124.861      LLC-load-misses                  #   19,44% of all LL-cache accesses    ( +-  2,65% )  (44,83%)
+        32.097.080      branches                                                                ( +-  1,01% )  (48,70%)
+         1.030.487      branch-misses                    #    3,21% of all branches             ( +-  0,70% )  (44,49%)
+
+          0,044040 +- 0,000387 seconds time elapsed  ( +-  0,88% )
+
+### ALVO_BARRA: rds_o0 ###
+
+ Performance counter stats for './rds_o0' (100 runs):
+
+         1.336.145      task-clock:u                     #    0,831 CPUs utilized               ( +-  0,44% )
+               136      page-faults                                                             ( +-  0,06% )
+         5.106.605      cycles                                                                  ( +-  1,26% )  (34,63%)
+         9.847.028      instructions                     #    1,93  insn per cycle              ( +-  0,18% )
+             6.572      cache-misses                                                            ( +-  9,40% )
+         2.632.543      L1-dcache-loads                                                         ( +-  0,04% )
+            48.560      L1-dcache-load-misses            #    1,84% of all L1-dcache accesses   ( +-  0,23% )
+             5.382      LLC-loads                                                               ( +-  6,77% )  (65,37%)
+     <not counted>      LLC-load-misses                                                         (0,00%)
+     <not counted>      branches                                                                (0,00%)
+     <not counted>      branch-misses                                                           (0,00%)
+
+         0,0016075 +- 0,0000180 seconds time elapsed  ( +-  1,12% )
+
+Some events weren't counted. Try disabling the NMI watchdog:
+	echo 0 > /proc/sys/kernel/nmi_watchdog
+	perf stat ...
+	echo 1 > /proc/sys/kernel/nmi_watchdog
+### ALVO_BARRA: rds_o1 ###
+
+ Performance counter stats for './rds_o1' (100 runs):
+
+           767.577      task-clock:u                     #    0,753 CPUs utilized               ( +-  0,27% )
+               136      page-faults                                                             ( +-  0,07% )
+         2.954.894      cycles                                                                  ( +-  0,74% )  (35,13%)
+         4.361.701      instructions                     #    1,48  insn per cycle              ( +-  0,09% )
+             2.328      cache-misses                                                            ( +- 14,19% )
+           934.859      L1-dcache-loads                                                         ( +-  0,11% )
+            47.688      L1-dcache-load-misses            #    5,10% of all L1-dcache accesses   ( +-  0,12% )
+             5.778      LLC-loads                                                               ( +-  7,57% )  (64,87%)
+     <not counted>      LLC-load-misses                                                         (0,00%)
+     <not counted>      branches                                                                (0,00%)
+     <not counted>      branch-misses                                                           (0,00%)
+
+         0,0010191 +- 0,0000152 seconds time elapsed  ( +-  1,49% )
+
+Some events weren't counted. Try disabling the NMI watchdog:
+	echo 0 > /proc/sys/kernel/nmi_watchdog
+	perf stat ...
+	echo 1 > /proc/sys/kernel/nmi_watchdog
+### ALVO_BARRA: rds_o2 ###
+
+ Performance counter stats for './rds_o2' (100 runs):
+
+           738.994      task-clock:u                     #    0,761 CPUs utilized               ( +-  0,23% )
+               136      page-faults                                                             ( +-  0,07% )
+         2.838.127      cycles                                                                  ( +-  0,93% )  (11,76%)
+         4.216.113      instructions                     #    1,49  insn per cycle              ( +-  0,09% )
+             1.990      cache-misses                                                            ( +- 16,59% )
+           907.923      L1-dcache-loads                                                         ( +-  0,10% )
+            47.636      L1-dcache-load-misses            #    5,25% of all L1-dcache accesses   ( +-  0,10% )
+             6.181      LLC-loads                                                               ( +-  6,79% )  (88,24%)
+     <not counted>      LLC-load-misses                                                         (0,00%)
+     <not counted>      branches                                                                (0,00%)
+     <not counted>      branch-misses                                                           (0,00%)
+
+         0,0009711 +- 0,0000195 seconds time elapsed  ( +-  2,01% )
+
+Some events weren't counted. Try disabling the NMI watchdog:
+	echo 0 > /proc/sys/kernel/nmi_watchdog
+	perf stat ...
+	echo 1 > /proc/sys/kernel/nmi_watchdog
+### ALVO_BARRA: rds_o3 ###
+
+ Performance counter stats for './rds_o3' (100 runs):
+
+           736.106      task-clock:u                     #    0,752 CPUs utilized               ( +-  0,22% )
+               136      page-faults                                                             ( +-  0,07% )
+         2.853.822      cycles                                                                  ( +-  0,73% )
+         4.198.774      instructions                     #    1,47  insn per cycle              ( +-  0,07% )
+             2.071      cache-misses                                                            ( +- 15,89% )
+           901.911      L1-dcache-loads                                                         ( +-  0,08% )
+            47.621      L1-dcache-load-misses            #    5,28% of all L1-dcache accesses   ( +-  0,10% )
+     <not counted>      LLC-loads                                                               ( +-  7,55% )  (0,00%)
+     <not counted>      LLC-load-misses                                                         (0,00%)
+     <not counted>      branches                                                                (0,00%)
+     <not counted>      branch-misses                                                           (0,00%)
+
+         0,0009787 +- 0,0000175 seconds time elapsed  ( +-  1,79% )
+
+Some events weren't counted. Try disabling the NMI watchdog:
+	echo 0 > /proc/sys/kernel/nmi_watchdog
+	perf stat ...
+	echo 1 > /proc/sys/kernel/nmi_watchdog
+### ALVO_BARRA: rds_of ###
+
+ Performance counter stats for './rds_of' (100 runs):
+
+           736.524      task-clock:u                     #    0,754 CPUs utilized               ( +-  0,24% )
+               136      page-faults                                                             ( +-  0,07% )
+         2.835.251      cycles                                                                  ( +-  0,82% )
+         4.199.883      instructions                     #    1,48  insn per cycle              ( +-  0,08% )
+             2.180      cache-misses                                                            ( +- 15,28% )
+           902.229      L1-dcache-loads                                                         ( +-  0,10% )
+            47.614      L1-dcache-load-misses            #    5,28% of all L1-dcache accesses   ( +-  0,10% )
+     <not counted>      LLC-loads                                                               ( +-  7,39% )  (0,00%)
+     <not counted>      LLC-load-misses                                                         (0,00%)
+     <not counted>      branches                                                                (0,00%)
+     <not counted>      branch-misses                                                           (0,00%)
+
+         0,0009764 +- 0,0000173 seconds time elapsed  ( +-  1,77% )
+
+Some events weren't counted. Try disabling the NMI watchdog:
+	echo 0 > /proc/sys/kernel/nmi_watchdog
+	perf stat ...
+	echo 1 > /proc/sys/kernel/nmi_watchdog
+### ALVO_BARRA: rds_os ###
+
+ Performance counter stats for './rds_os' (100 runs):
+
+           802.966      task-clock:u                     #    0,775 CPUs utilized               ( +-  0,20% )
+               136      page-faults                                                             ( +-  0,07% )
+         3.090.925      cycles                                                                  ( +-  0,84% )  (35,62%)
+         4.066.995      instructions                     #    1,32  insn per cycle              ( +-  0,08% )
+             2.115      cache-misses                                                            ( +- 15,22% )
+           934.306      L1-dcache-loads                                                         ( +-  0,09% )
+            47.703      L1-dcache-load-misses            #    5,11% of all L1-dcache accesses   ( +-  0,09% )
+             6.466      LLC-loads                                                               ( +-  7,04% )  (64,38%)
+     <not counted>      LLC-load-misses                                                         (0,00%)
+     <not counted>      branches                                                                (0,00%)
+     <not counted>      branch-misses                                                           (0,00%)
+
+         0,0010361 +- 0,0000185 seconds time elapsed  ( +-  1,79% )
+
+Some events weren't counted. Try disabling the NMI watchdog:
+	echo 0 > /proc/sys/kernel/nmi_watchdog
+	perf stat ...
+	echo 1 > /proc/sys/kernel/nmi_watchdog
+### ALVO_BARRA: rds_py ###
+
+ Performance counter stats for './rds_py' (100 runs):
+
+        30.184.389      task-clock:u                     #    0,979 CPUs utilized               ( +-  0,26% )
+             2.687      page-faults                                                             ( +-  0,00% )
+       119.891.060      cycles                                                                  ( +-  0,25% )  (42,89%)
+       241.706.838      instructions                     #    2,02  insn per cycle              ( +-  0,45% )  (56,35%)
+           461.643      cache-misses                                                            ( +-  3,06% )  (59,62%)
+        65.503.964      L1-dcache-loads                                                         ( +-  0,17% )  (59,61%)
+         2.575.918      L1-dcache-load-misses            #    3,93% of all L1-dcache accesses   ( +-  0,14% )  (59,61%)
+           646.862      LLC-loads                                                               ( +-  0,64% )  (57,11%)
+            10.508      LLC-load-misses                  #    1,62% of all LL-cache accesses    ( +-  7,94% )  (40,38%)
+        53.174.335      branches                                                                ( +-  0,13% )  (40,39%)
+           520.836      branch-misses                    #    0,98% of all branches             ( +-  0,28% )  (40,39%)
+
+         0,0308473 +- 0,0000803 seconds time elapsed  ( +-  0,26% )
+
